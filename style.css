@@ -1,0 +1,162 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(100, 69, 11);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin: 20px;
+}
+h1 {
+    font-size: 2.5em;
+    color: #2840c6;
+    text-align: center;
+    margin: 0.5em 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1em;
+    color: #dae3e9;
+    line-height: 1.6;
+    margin: 1em 0;
+    text-align: center;
+}
+
+/* Registration Form Container */
+.registration-form {
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading */
+.registration-form h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* Form Labels */
+.registration-form label {
+    display: block;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 0.5em;
+}
+
+/* Input Fields */
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="number"],
+.registration-form input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Input Field Focus Effect */
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type="number"]:focus,
+.registration-form input[type="tel"]:focus {
+    border-color: #66a6ff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 166, 255, 0.2);
+}
+
+/* Submit Button */
+.registration-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #66a6ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.registration-form button:hover {
+    background-color: #557bcf;
+}
+
+/* Student Records Section */
+.student-records {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 95%;
+    max-height: 300px; /* Adjusted height to restrict container */
+    overflow-y: auto; /* Only vertical scrollbar */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Table Header and Cell Styling */
+th, td {
+    padding: 12px 15px; /* Added some padding for better spacing */
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Specific Column Widths for Better Alignment */
+th:nth-child(1), td:nth-child(1) {
+    width: 20%; /* Name column */
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 15%; /* Student ID column */
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 25%; /* Email column */
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 15%; /* Contact No column */
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 25%; /* Actions column */
+}
+
+/* Card-style for Each Table Row */
+tr {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+tr:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
